@@ -1,0 +1,23 @@
+{
+  "name": "ravenclient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -e js,njk",
+    "watch": "tailwindcss -i ./assets/css/style.css -o ./public/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "daisyui": "^2.51.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3",
+    "ravendb": "^5.2.7"
+  },
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
