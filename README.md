@@ -7,6 +7,10 @@ Fristly clone project in your folder
 ```
 git clone https://github.com/ImAMLazy/RavenClientApp.git
 ```
+```
+cd RavenClientApp
+```
+
 Secondly download other part
 ```
 npm i
