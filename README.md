@@ -13,4 +13,9 @@ npm i
 ```
 Nextly setup RavenDB (you can do it by [this](https://github.com/ImAMLazy/RavenDB) tutorial) and create DB 'test'
 
-Then u can use app
+Then use
+```
+npm run start
+```
+
+And you can use app
