@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon -e js,njk",
+    "start": "node index.js",
+    "dev": "nodemon -e js,njk",
     "watch": "tailwindcss -i ./assets/css/style.css -o ./public/style.css --watch"
   },
   "author": "",

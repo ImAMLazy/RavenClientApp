@@ -74,8 +74,8 @@ class Raven
         const user = new User({name});
         
         await this.session.store(user);
-        console.log('New USER ID = ' + user.Name); // products/1-A
-        console.log('New USER ID = ' + user.id); // products/1-A
+        //console.log('New USER ID = ' + user.Name); // products/1-A
+        //console.log('New USER ID = ' + user.id); // products/1-A
         await this.session.saveChanges();
     }
 
@@ -83,7 +83,7 @@ class Raven
 
     async deleteUser(name)
     {
-        console.log(name);
+        //console.log(name);
         this.init();
         const user = await this.session.load(name);
         /*
@@ -99,8 +99,8 @@ class Raven
     async upd(name, next)
     {
         this.init();
-        console.log(name);
-        console.log(next);
+        //console.log(name);
+        //console.log(next);
         
         const user = await this.session.load(name);
         
